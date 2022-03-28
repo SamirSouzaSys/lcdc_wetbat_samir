@@ -1,7 +1,12 @@
 Comandos usados
 
+## Dessa forma as configurações ficam no package.json/REACT-SCRIPTS
 yarn create react-app lcdc_wetbat_samir -- template typescript
 
+## Css in JS
+yarn add styled-components
+
+yarn add @types/styled-compoents -D
 
 ----------------------
 
