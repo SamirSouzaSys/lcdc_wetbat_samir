@@ -1,15 +1,11 @@
-// import 'App.css';
-
+import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
-    <div className="App">
-      <h1>Quick quote</h1>
-      <h1>Katty Abcdefghgj</h1>
+    <>
+      <Header/>
       <GlobalStyle/>
-    </div>
+    </>
   );
 }
-
-// export default App;
