@@ -8,6 +8,18 @@ yarn add styled-components
 
 yarn add @types/styled-compoents -D
 
+# add font awesome
+https://fontawesome.com/v6/docs/web/use-with/react/add-icons
+
+yarn add @fortawesome/fontawesome-free
+
+yarn add @fortawesome/free-solid-svg-icons
+yarn add @fortawesome/free-regular-svg-icons
+yarn add @fortawesome/react-fontawesome@latest
+
+yarn add babel-plugin-macros
+Create -> babel.jsconfig.js
+
 ----------------------
 
 # Getting Started with Create React App

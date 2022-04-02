@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     --laranja: #f0cf85;
 
     --cinza: #7a7a7a;
+    --cinza-claro: #CCCFDC;
   }
   
   * {
