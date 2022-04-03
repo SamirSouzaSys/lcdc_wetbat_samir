@@ -3,10 +3,10 @@ import logoWetBatImg from '../../assets/Bat.png';
 
 import iconSearchImg from '../../assets/icon_search.png';
 
-import iconNotificationImg  from '../../assets/icon_Notification.png';
-import iconMessageImg       from '../../assets/icon_Message.png';
-import iconSettingsImg      from '../../assets/icon_Settings.png';
-import profileImg           from '../../assets/profile_Img.jpg';
+import iconNotificationImg  from '../../assets/icon_notification.png';
+import iconMessageImg       from '../../assets/icon_message.png';
+import iconSettingsImg      from '../../assets/icon_settings.png';
+import profileImg           from '../../assets/profile_img.jpg';
 
 import { Container, Content } from './styles'
 

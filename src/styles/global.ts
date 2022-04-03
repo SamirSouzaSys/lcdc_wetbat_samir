@@ -11,8 +11,9 @@ export const GlobalStyle = createGlobalStyle`
     --amarelo: #e7f0c3;
     --laranja: #f0cf85;
 
-    --cinza: #7a7a7a;
+    --cinza: #AEAEAE;
     --cinza-claro: #CCCFDC;
+    --cinza-sidebar: #E6E6E6;
   }
   
   * {

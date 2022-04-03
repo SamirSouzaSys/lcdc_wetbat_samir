@@ -1,14 +1,15 @@
 import { Content } from './styles'
 
-// import ReactDOM from 'react-dom'
-// import { FontAwesomeIcon } from '../../../node_modules/@fortawesome/fontawesome-free';
-// import { FontAwesomeIcon } from '@fortawesome/fontawesome-free';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/free-solid-svg-icons'
-  // fontawesome-free
-// import { faC offee } from '../../../node_modules/@fortawesome/free-solid-svg-icons'
+import icon_homeImg    from '../../assets/icon_home.png';
+import icon_quotesImg  from '../../assets/icon_quotes.png';
+import icon_leadsImg   from '../../assets/icon_leads.png';
+import icon_toursImg   from '../../assets/icon_tours.png';
 
-// const element = <FontAwesomeIcon icon={faCoffee} />
+import iconinvoicesImg   from '../../assets/icon_invoices.png';
+import iconanalyticsImg  from '../../assets/icon_analytics.png';
+import iconteamImg       from '../../assets/icon_team.png';
+import iconadminImg      from '../../assets/icon_admin.png';
+import iconsupportImg    from '../../assets/icon_support.png';
 
 export function Sidebar() {
   return (
@@ -16,23 +17,21 @@ export function Sidebar() {
     <Content>
       <div>
         <ul>
-          <li><FontAwesomeIcon icon="fa-solid fa-house-chimney" />Home</li>
-          <li><FontAwesomeIcon icon={solid('user-secret')} /> Quotes</li> 
-          <li><FontAwesomeIcon icon={regular('coffee')} /> Leads</li>
-          <li><FontAwesomeIcon icon={brands('twitter')} /> Tours</li>
+          <li><img src={icon_homeImg} alt="Icon home"/> Home</li>
+          <li><img src={icon_quotesImg} alt="Icon quotes"/> Quotes</li> 
+          <li><img src={icon_leadsImg} alt="Icon leads"/> Leads</li>
+          <li><img src={icon_toursImg} alt="Icon tours"/> Tours</li>
         </ul>
         <hr/>
         <ul>
-          <li>Invoices</li>
-          <li>Analytics</li>
-          <li>team</li>
-          <li>Admin</li>
-          <li>Support</li>
+          <li><img src={iconinvoicesImg} alt="Icon invoices"/> Invoices</li>
+          <li><img src={iconanalyticsImg} alt="Icon analytics"/> Analytics</li>
+          <li><img src={iconteamImg} alt="Icon team"/> team</li>
+          <li><img src={iconadminImg} alt="Icon admin"/> Admin</li>
+          <li><img src={iconsupportImg} alt="Icon support"/> Support</li>
         </ul>
         <hr/>
-        <ul>
-          <li>Allright received<br/>by wetbat 2020 c</li>
-        </ul>
+          <p className="copyright">Allright received<br/>by wetbat 2022 &copy;</p>
       </div>
     </Content>
   )
