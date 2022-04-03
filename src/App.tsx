@@ -1,5 +1,5 @@
-import { Header }  from "./components/Header";
-import { Sidebar } from "./components/Sidebar";
+import { Header }  from "./components/default/Header";
+import { Sidebar } from "./components/default/Sidebar";
 import { GlobalStyle } from "./styles/global";
 
 // import { library } from '@fortawesome/fontawesome-free'

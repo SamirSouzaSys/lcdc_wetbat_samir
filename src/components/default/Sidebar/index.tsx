@@ -1,15 +1,15 @@
 import { Content } from './styles'
 
-import icon_homeImg    from '../../assets/icon_home.png';
-import icon_quotesImg  from '../../assets/icon_quotes.png';
-import icon_leadsImg   from '../../assets/icon_leads.png';
-import icon_toursImg   from '../../assets/icon_tours.png';
+import icon_homeImg    from '../../../assets/icon_home.png';
+import icon_quotesImg  from '../../../assets/icon_quotes.png';
+import icon_leadsImg   from '../../../assets/icon_leads.png';
+import icon_toursImg   from '../../../assets/icon_tours.png';
 
-import iconinvoicesImg   from '../../assets/icon_invoices.png';
-import iconanalyticsImg  from '../../assets/icon_analytics.png';
-import iconteamImg       from '../../assets/icon_team.png';
-import iconadminImg      from '../../assets/icon_admin.png';
-import iconsupportImg    from '../../assets/icon_support.png';
+import iconinvoicesImg   from '../../../assets/icon_invoices.png';
+import iconanalyticsImg  from '../../../assets/icon_analytics.png';
+import iconteamImg       from '../../../assets/icon_team.png';
+import iconadminImg      from '../../../assets/icon_admin.png';
+import iconsupportImg    from '../../../assets/icon_support.png';
 
 export function Sidebar() {
   return (
