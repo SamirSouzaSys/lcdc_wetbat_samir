@@ -35,8 +35,9 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: var(--background);
     -webkit-font-smoothing: antialiased;
-  }
 
+  }
+  
   body, input, textarea, button {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -53,5 +54,17 @@ export const GlobalStyle = createGlobalStyle`
   [disabled] {
     opacity: 0.6;
     cursor: not-allowed;
+  }
+
+  .mainContent{
+    display: flex;
+
+    main {
+        margin: 1rem;
+    }
+  }
+
+  .row{
+    display: flex;
   }
 `
