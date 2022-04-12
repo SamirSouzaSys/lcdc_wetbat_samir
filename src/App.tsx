@@ -22,35 +22,56 @@ export function App() {
           </div>
           <div className="row">
             <Card
-              header={"Quick quote"}
-              width={35}
+              headerText={"Quick quote"}
+              widthSize={37.2}
+              
+              headerIcon={getImageUrl("icon_quickQuote.png")}
+              headerExtraIcon1={getImageUrl("icon_expand.png")}
               />
             <Card
-              header={"Pending quotes"}
-              width={35}
+              headerText={"Pending quotes"}
+              widthSize={37.2}
+              headerIcon={getImageUrl("icon_pendingQuotes.png")}
+
+              headerExtraIcon1={getImageUrl("icon_refresh.png")}
+              headerExtraIcon2={getImageUrl("icon_expand.png")}
               />
             <Card
-              header={"New Leads"}
-              width={35}
-            />
+              headerText={"New Leads"}
+              widthSize={25.5}
+              headerIcon={getImageUrl("icon_newLeads.png")}
+
+              headerExtraIcon1={getImageUrl("icon_refresh.png")}
+              headerExtraIcon2={getImageUrl("icon_expand.png")}
+              />
           </div>
           <div className="row">
             <Card
-              header={"Popular destinations & packages"}
-            />
+              headerText={"Popular destinations & packages"}
+              widthSize={75}
+              headerIcon={getImageUrl("icon_popularDestinations&Packages.png")}
+              />
             <Card
-              header={"Teams chat"}
-            />
+              widthSize={25}
+              headerText={"Teams chat"}
+              headerIcon={getImageUrl("icon_teamsChat.png")}
+              />
           </div>
           <div className="row">
             <Card
-              header={"Revenue"}
+              widthSize={37.2}
+              headerText={"Revenue"}
+              headerIcon={getImageUrl("icon_revenue.png")}
+              />
+            <Card
+              widthSize={37.2}
+              headerText={"Potential revenue"}
+              headerIcon={getImageUrl("icon_potentialRevenue.png")}
             />
             <Card
-              header={"Potential revenue"}
-            />
-            <Card
-              header={"Close ratios"}
+              widthSize={25.5}
+              headerText={"Close ratios"}
+              headerIcon={getImageUrl("icon_closeRatios.png")}
             />
           </div>
         </main>
@@ -58,4 +79,20 @@ export function App() {
       <GlobalStyle />
     </>
   );
+}
+
+// function getIcon(name) {
+//   const [category, filename] = name.split(":");
+
+//   if (filename) {
+//     return require(`one_directory/icons/${category}/${filename}.svg`);
+//   } else {
+//     return require(`two_directory/icons/${name}.svg`);
+//   }
+// }
+
+function getImageUrl(headerIcon:string) {
+
+  // return require(`../../assets/${headerIcon}`);
+  return require(`./assets/${headerIcon}`);
 }
