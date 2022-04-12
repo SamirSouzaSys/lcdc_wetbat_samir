@@ -26,7 +26,7 @@ export function Sidebar() {
         <ul>
           <li><img src={iconinvoicesImg} alt="Icon invoices"/> Invoices</li>
           <li><img src={iconanalyticsImg} alt="Icon analytics"/> Analytics</li>
-          <li><img src={iconteamImg} alt="Icon team"/> team</li>
+          <li><img src={iconteamImg} alt="Icon team"/> Team</li>
           <li><img src={iconadminImg} alt="Icon admin"/> Admin</li>
           <li><img src={iconsupportImg} alt="Icon support"/> Support</li>
         </ul>
