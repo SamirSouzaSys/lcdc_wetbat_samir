@@ -7,24 +7,24 @@ import styled from 'styled-components';
 
 
 export const Content = styled.div`
-  width: 220px;
+  width: 176px;
   color: var(--azul);
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   background-color: var(--cinza-sidebar);
 
   
   li{
     display: flex;
-    padding: 2.5rem 4rem 2.4rem 2.3rem;
+    padding: 2.5rem 4rem 2.4rem 1.9rem;
     
     &:hover{
       background-color: var(--cinza-claro);
     }
     
     img{
-      margin-right: 0.9rem;
-      height: 1.8rem;
+      margin-right: 0.6rem;
+      height: 1.4rem;
     }
   }
   
@@ -35,6 +35,6 @@ export const Content = styled.div`
   .copyright {
     color: var(--cinza);
     padding: 2.5rem 1rem 2.4rem 2.3rem;
-    font-size: 1rem;
+    font-size: .8rem;
   }
 `
