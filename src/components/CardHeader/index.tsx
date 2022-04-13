@@ -1,12 +1,12 @@
 import { Container, Content } from "./styles";
 
-export function CardHeader(props: any) {
+export function CardHeader(props: {textDoHeader: string}) {
 
   return (
     <>
-      <header>
-        {props.header}
-      </header>
+      <Content>
+          {/* {props.textDoHeader} */}
+      </Content>
     </>
   )
 }
