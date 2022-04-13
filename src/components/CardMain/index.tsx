@@ -1,8 +1,8 @@
 import { Container, Content } from "./styles";
 import img_team from '../../assets/img_team.png';
 
-
-export function CardMain(props: any) {
+// props: any
+export function CardMain() {
 
   return (
     <>
