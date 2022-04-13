@@ -11,18 +11,26 @@ export const Container = styled.div.attrs((props: PropCss) => ({
   backgroundColor: props.backgroundColor,
 })) <PropCss>`
 
-  width:${(props) => props.widthSize}%;
-  background-color:${(props) => props.backgroundColor};
+  width: ${(props) => props.widthSize}%;
+  background-color: ${(props) => props.backgroundColor};
   margin: 1rem;
-  padding: 1.5rem 2rem;
   background: white;
-  border-radius: 12px;
+  border-radius: 10px;
+  border: solid .6px;
+  border-color: var(--cinza-sidebar);
+  
+  hr {
+    border: solid 1px;
+    border-color: var(--cinza-sidebar);
+
+  }
 `
 
 export const Header = styled.div`
+  padding: 1rem 1.5rem .7rem 1.5rem;
   display:flex;
   /* border-bottom: solid 1px; */
-
+  
   div {
     /* justify-content: space-between; */
     /* padding-left: .5rem; */
@@ -36,6 +44,7 @@ export const Header = styled.div`
     /* text-align: left; */
     width:100%;
     padding-left: 1rem;
+    padding-bottom: 0.3rem;
   }
 
   img {
@@ -52,7 +61,8 @@ export const Header = styled.div`
 `
 
 export const Content = styled.div`
-  padding: 0.5rem;
+  padding: 1rem 1.5rem .7rem 1.5rem;
+  /* padding: 0.5rem; */
   /*
   color: blue;
   width: 100%; */

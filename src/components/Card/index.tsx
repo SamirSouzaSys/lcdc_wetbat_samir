@@ -13,7 +13,6 @@ export function Card(props: any) {
         widthSize={props.widthSize}
         backgroundColor={props.backgroundColor}
       >
-
         <Header>
           <div>
             <img
@@ -40,7 +39,7 @@ export function Card(props: any) {
         </Header>
         <hr/>
         <Content>
-          e esse possimus ab repellat, reiciendis quasi dicta doloribus obcaecati.
+            {props.contentCard}
         </Content>
       </Container>
     </>

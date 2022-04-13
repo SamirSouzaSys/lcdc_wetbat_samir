@@ -18,16 +18,17 @@ export function App() {
         <Sidebar />
         <main>
           <div className="row">
-            <CardMain/>
+            <CardMain />
           </div>
           <div className="row">
             <Card
               headerText={"Quick quote"}
               widthSize={37.2}
-              
+
               headerIcon={getImageUrl("icon_quickQuote.png")}
               headerExtraIcon1={getImageUrl("icon_expand.png")}
-              />
+              // contentCard={}
+            />
             <Card
               headerText={"Pending quotes"}
               widthSize={37.2}
@@ -35,7 +36,7 @@ export function App() {
 
               headerExtraIcon1={getImageUrl("icon_refresh.png")}
               headerExtraIcon2={getImageUrl("icon_expand.png")}
-              />
+            />
             <Card
               headerText={"New Leads"}
               widthSize={25.5}
@@ -43,26 +44,26 @@ export function App() {
 
               headerExtraIcon1={getImageUrl("icon_refresh.png")}
               headerExtraIcon2={getImageUrl("icon_expand.png")}
-              />
+            />
           </div>
           <div className="row">
             <Card
               headerText={"Popular destinations & packages"}
               widthSize={75}
               headerIcon={getImageUrl("icon_popularDestinations&Packages.png")}
-              />
+            />
             <Card
               widthSize={25}
               headerText={"Teams chat"}
               headerIcon={getImageUrl("icon_teamsChat.png")}
-              />
+            />
           </div>
           <div className="row">
             <Card
               widthSize={37.2}
               headerText={"Revenue"}
               headerIcon={getImageUrl("icon_revenue.png")}
-              />
+            />
             <Card
               widthSize={37.2}
               headerText={"Potential revenue"}
@@ -74,6 +75,17 @@ export function App() {
               headerIcon={getImageUrl("icon_closeRatios.png")}
             />
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </main>
       </div>
       <GlobalStyle />
@@ -91,7 +103,7 @@ export function App() {
 //   }
 // }
 
-function getImageUrl(headerIcon:string) {
+function getImageUrl(headerIcon: string) {
 
   // return require(`../../assets/${headerIcon}`);
   return require(`./assets/${headerIcon}`);
