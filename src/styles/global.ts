@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     --cinza: #AEAEAE;
     --cinza-claro: #CCCFDC;
     --cinza-sidebar: #E6E6E6;
+    --cinza-input: #F0EEF7;
   }
   
   * {
