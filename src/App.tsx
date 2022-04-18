@@ -3,6 +3,7 @@ import { Sidebar } from "./components/default/Sidebar";
 import { Card } from "./components/Card";
 import { CardMain } from "./components/CardMain";
 import { GlobalStyle } from "./styles/global";
+import { QuickQuote } from "./components/VariousCardContents/QuickQuote";
 
 // import { library } from '@fortawesome/fontawesome-free'
 //  '. @fortawesome/fontawesome-svg-core'
@@ -27,7 +28,7 @@ export function App() {
 
               headerIcon={getImageUrl("icon_quickQuote.png")}
               headerExtraIcon1={getImageUrl("icon_expand.png")}
-              // contentCard={}
+              contentCard={<QuickQuote/>}
             />
             <Card
               headerText={"Pending quotes"}
